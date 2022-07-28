@@ -78,7 +78,35 @@ main{
     margin: 0;
     padding-top: 10px;
 }
-
+.faq-header h2{
+    font-weight: 600;
+    font-size: 45px;
+    color: #1D1D1D;
+}
+.faq-header p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+}
+.accordion-button{
+    font-weight: 600;
+    font-size: 20px;
+    color: #4A4A4A !important;
+}
+.accordion-body{
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+}
+.accordion-body strong{
+    font-size: 18px;
+    color: #4A4A4A;
+}
+.company-container h2{
+    font-weight: 600;
+    font-size: 45px;
+    color: #1D1D1D;
+}
 /* mobile version  */
 @media screen and (max-width: 576px){
     .carousel-inner img {
@@ -124,6 +152,22 @@ main{
         padding: 0;
         margin: 0;
         padding: 12px auto;
+    }
+    .faq-header h2{
+        font-size: 20px;
+        color: #1D1D1D;
+    }
+    .faq-header p{
+        font-size: 14px;
+    }
+    .accordion-button{
+        font-size: 14px;
+    }
+    .accordion-body{
+        font-size: 14px;
+    }
+    .accordion-body strong{
+        font-size: 16px;
     }
     
     
