@@ -35,11 +35,54 @@ color: #F4F4F4;
 .carousel-caption{
     top: 0;
 }
+main{
+    margin-top: 130px;
+}
+.course-header-text h2{
+    font-weight: 600;
+    font-size: 45px;
+    color: #1D1D1D;
+}
+.course-header-text p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777;
+}
+.card{
+    max-width: 648px;
+    padding: 0;
+    margin: 0;
+}
+.card-body{
+    padding: 0;
+    padding: 25px 20px;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 25px;
+}
+.card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    padding: 0;
+    margin: 0;
+    padding: 10px auto;
+}
+.course-price{
+    font-weight: 600;
+    font-size: 18px;
+    color: #289BDE;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
 
 /* mobile version  */
 @media screen and (max-width: 576px){
     .carousel-inner img {
-        height: 35vh;
+        height: 40vh;
         object-fit: cover;
     }
     .carousel-text h1{
@@ -58,6 +101,32 @@ color: #F4F4F4;
         color: #FFFFFF;
         padding: 8px 18px !important;
     }
+    main{
+        margin-top: 32px;
+    }
+    .course-header-text h2{
+        font-size: 25px;
+    }
+    .course-header-text p{
+        font-size: 14px;
+    }
+    .card{
+        max-width: 345px;
+    }
+    .card-title{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .card-text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        padding: 0;
+        margin: 0;
+        padding: 12px auto;
+    }
+    
+    
     
 }
 /* tablet version  */
@@ -77,4 +146,11 @@ color: #F4F4F4;
         font-size: 18px;
         color: #FFFFFF;
     }
+    main{
+        margin-top: 60px;
+    }
+    .course-header-text h2{
+        font-size: 30px;
+    }
+    
 }
