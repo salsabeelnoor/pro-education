@@ -107,6 +107,31 @@ main{
     font-size: 45px;
     color: #1D1D1D;
 }
+footer{
+    background: #161616;
+}
+.footer-container{
+    padding-top: 60px;
+}
+footer h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #E8E8E8;
+}
+.social-icons{
+    margin: auto 680px;
+    padding-bottom: 50px;
+}
+.icons{
+    font-size: 30px;
+    color: white;
+    
+}
 /* mobile version  */
 @media screen and (max-width: 576px){
     .carousel-inner img {
@@ -169,9 +194,18 @@ main{
     .accordion-body strong{
         font-size: 16px;
     }
-    
-    
-    
+    footer h2{
+        font-size: 30px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    .social-icons{
+        margin: 0;
+        margin: auto ;
+        padding: 0;
+        padding-bottom: 30px;
+    }   
 }
 /* tablet version  */
 @media screen and (min-width: 577px) and (max-width: 991px){
@@ -195,6 +229,15 @@ main{
     }
     .course-header-text h2{
         font-size: 30px;
+    }
+    .social-icons{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 50px;
+        margin-top: 30px;
+    }
+    .social-icons i + i{
+        margin-left: 5px;
     }
     
 }
