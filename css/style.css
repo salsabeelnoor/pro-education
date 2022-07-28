@@ -78,6 +78,23 @@ main{
     margin: 0;
     padding-top: 10px;
 }
+.register-container{
+    padding-top: 10px;
+    background: #289BDE;
+    height: 30vh;
+    object-fit: cover;
+}
+.reg-txt h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.register-container p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #F4F4F4;
+    padding-bottom: 5%;
+}
 .faq-header h2{
     font-weight: 600;
     font-size: 45px;
@@ -178,6 +195,23 @@ footer p{
         margin: 0;
         padding: 12px auto;
     }
+    .register-container{
+        background: #289BDE;
+        height: 45vh;
+        object-fit: cover;
+    }
+    .reg-txt h2{
+        font-size: 30px;
+    }
+    .reg-txt p{
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .reg-btn button{
+        padding: 0;
+        padding-bottom: 10px;
+
+    }
     .faq-header h2{
         font-size: 20px;
         color: #1D1D1D;
@@ -206,6 +240,7 @@ footer p{
         padding: 0;
         padding-bottom: 30px;
     }   
+    
 }
 /* tablet version  */
 @media screen and (min-width: 577px) and (max-width: 991px){
